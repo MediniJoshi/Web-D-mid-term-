@@ -1,0 +1,390 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    /* font-size: 24px;
+    font-weight: bold;
+    color: #333; */
+    width:30%;
+    height:30%;
+    margin-left:250px  ;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right:250px;
+    height:auto;
+    width:auto;
+}
+
+nav li {
+    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.hero {
+    background-image: url('https://img.freepik.com/free-photo/vestrahorn-mountains-stokksnes-iceland_335224-667.jpg?w=1060&t=st=1729073475~exp=1729074075~hmac=078c29ddced962d17d7485b2911b45105eb159d8baaef402edc6cc980a4d7bb3'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #d8434df1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.container-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.content-one {
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 5px;
+   
+}
+
+h1 {
+    color: #965A38;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.about-section {
+    padding: 60px 20px;
+    background-color: #f8f8f8;
+    text-align: left;
+}
+
+.container-three {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 100px 50px;
+    gap: 50px;
+
+}
+
+.about-title {
+    width: 40%;
+    font-size: 40px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    width: 70%;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-text:first-letter {
+    text-transform: uppercase;
+}
+.container-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-section {
+    flex: 1;
+
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.text-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.text-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.text-section h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #888;
+    text-transform: uppercase;
+}
+
+.text-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.book-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #b29d48;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.book-button:hover {
+    background-color: #8e7d3d;
+}
+.hero-two {
+    background-image: url('https://img.freepik.com/premium-photo/bridge-with-blue-sky-mountains-background_924629-422146.jpg?w=900'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+    position: relative;
+}
+
+ .hero-two img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.hero-text h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    color: #f4d03f; 
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: white;
+}
+
+.cta-button {
+    background-color: #d1b654;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cta-button:hover {
+    background-color: #b29d48;
+}
+.flex-one{
+    display: flex;
+    gap: 30px;
+}
+.container-two-setup{
+    display: flex;
+    justify-content: center;
+}
+.container-two > div > div > div{
+    display: flex;
+    gap: 15px;
+}
+.container-two > div > div > div{
+   margin: 10px;
+}
+
+/* .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); 
+    z-index: 1;
+} */
+
+.hero h1, .hero p {
+    z-index: 2; 
+}
+
+.Fimage {
+    
+
+    background-image:url("https://img.freepik.com/free-photo/cloud-forest-landscape_23-2151794709.jpg?t=st=1729083759~exp=1729087359~hmac=0dadf11043659bcc7fbe8d3bc183e4d4bef8871a2852bf6284fdb676c38a5e24&w=900");
+    
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+    position: relative; 
+}
+ 
+footer div{
+    width:100%;
+    height:50%;
+}
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-media img {
+    height: 30px; 
+  }
+  .book-button, .cta-button {
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover, .cta-button:hover {
+    background-color: #8e7d3d; /* Darker shade */
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* .log img {
+    width: 140px;
+    height: 140px;
+} */
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.social-media a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #888;
+}
+
+.footer-bottom a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+
+ 
+
+ 
+
+
